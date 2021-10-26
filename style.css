@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav  {
+	position: sticky;
+	padding: 30px;
+	background-color: black;
+}
+
+ul li{
+	
+	list-style-type: none;
+	display: inline;
+	float: right;
+}
+
+li a {
+	position: relative;
+	top: -18px;
+	padding: 5px;
+	margin: 10px;
+	color: white;
+
+	text-decoration: none;
+	transition: .5s;
+}
+a:hover {
+	color: green;
+}
+
+.container {
+	padding: 10px;
+	background-color: #c1e3ca;
+}
+.left {
+	float: right;
+
+
+}
+h5 {
+	padding: 2px;
+	margin: 5px;
+}
+
+.img {
+	float: right;
+
+}
+.container-2{
+	
+	background-color: #a1e6b3;
+}
+.obj {
+	padding: 10px;
+	margin: 10px;
+	margin-left: 40px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eb917f;
+}
+
+hr {
+	margin: 10px;
+}
+
+.container-3 {
+	background-color: #4c8f73;
+}
+
+p {
+	margin-left: 100px;
+	padding-bottom: 10px;	
+}
+
+span {
+	margin-left: -30px;
+}
+
+.container-4 {
+	background-color: #92ccd1;
+}
+
+ol li{
+	padding: 8px;
+	margin-left: 90px;
+
+}
+
+.container-5 {
+	background-color: #74cf87;
+
+}
+
+.container-6 {
+	background-color: #74cfc5;
+}
+.container-7 {
+	background-color: #74a6cf;
+}
+.container-8 {
+	background-color: #9c65d6;
+}
+.container-9 {
+	background-color: #d883de;
+}
+.container-10 {
+	background-color: #d1626f;
+}
+
+.fa {
+	padding: 10px;
+	transition: .9s;
+}
+
+.fa:hover {
+	background-color: black;
+	border-radius: 26px;
+}
+
+.insta {
+	color: #E4405F;
+}
+
+.face {
+	color: #1877F2;
+}
+
+.linked {
+	color: #0A66C2;
+}
+
+.youtube {
+	color: #CD201F;
+}
+
+.github {
+	color: #131418;
+}
